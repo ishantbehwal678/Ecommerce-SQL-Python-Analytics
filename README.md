@@ -3,45 +3,45 @@ End-to-end data analytics project combining SQL and Python to analyze large-scal
 
 =================================
 
-Project Overview
+1.Project Overview
 
 This project analyzes a real-world e-commerce dataset containing approximately 100,000 orders from 2016–2018.
 
 The objective was to simulate a professional analytics workflow by:
 
-Importing large CSV datasets into MySQL using Python
+-Importing large CSV datasets into MySQL using Python
 
-Performing business-driven SQL analysis
+-Performing business-driven SQL analysis
 
-Converting query outputs into Pandas DataFrames
+-Converting query outputs into Pandas DataFrames
 
-Creating visualizations using Python
+-Creating visualizations using Python
 
 The project demonstrates how SQL and Python can be integrated for scalable data analysis.
 
-Dataset
+2.Dataset
 
 Source: Kaggle – Brazilian E-commerce Dataset
 
 Includes multiple relational tables:
 
-Customers
+-Customers
 
-Orders
+-Orders
 
-Order Items
+-Order Items
 
-Payments
+-Payments
 
-Products
+-Products
 
-Sellers
+-Sellers
 
-Geo Location
+-Geo Location
 
 The dataset represents a real-world multi-table relational e-commerce database.
 
-Tools & Technologies
+3.Tools & Technologies
 
 MySQL – Database creation and SQL querying
 Python – Data import, query execution, analysis
@@ -50,104 +50,105 @@ mysql-connector-python – SQL connection
 Matplotlib – Data visualization
 Seaborn – Advanced visualization
 
-Work Performed
+4.Work Performed
+
 4.1 Database Setup & Data Import
 
-Created ecommerce database in MySQL
+-Created ecommerce database in MySQL
 
-Designed tables matching CSV schema
+-Designed tables matching CSV schema
 
-Used Python scripts to import multiple CSV files
+-Used Python scripts to import multiple CSV files
 
-Automated data dumping process
+-Automated data dumping process
 
-Verified successful import of ~100,000 records
+-Verified successful import of ~100,000 records
 
 4.2 Basic SQL Analysis
 
 Performed foundational queries such as:
 
-Listing unique customer cities
+-Listing unique customer cities
 
-Counting orders placed in specific years
+-Counting orders placed in specific years
 
-Counting customers per state
+-Counting customers per state
 
-Calculating percentage of installment payments
+-Calculating percentage of installment payments
 
 4.3 Intermediate SQL Analysis
 
-Monthly order trends
+-Monthly order trends
 
-Average products per order by city
+-Average products per order by city
 
-Revenue contribution by product category
+-Revenue contribution by product category
 
-Correlation analysis between product price and purchase frequency
+-Correlation analysis between product price and purchase frequency
 
 4.4 Advanced SQL Analysis
 
 Used window functions and advanced techniques including:
 
-Moving averages of customer order values
+-Moving averages of customer order values
 
-Cumulative monthly and yearly sales
+-Cumulative monthly and yearly sales
 
-Year-over-year growth rate of revenue
+-Year-over-year growth rate of revenue
 
-Seller ranking using DENSE_RANK()
+-Seller ranking using DENSE_RANK()
 
-Top 3 sellers per year by revenue
+-Top 3 sellers per year by revenue
 
 4.5 Python Data Processing & Visualization
 
-Executed SQL queries through Python
+-Executed SQL queries through Python
 
-Converted query results into Pandas DataFrames
+-Converted query results into Pandas DataFrames
 
-Created bar charts for:
+-Created bar charts for:
 
-Customer distribution by state
+ -Customer distribution by state
 
-Orders by month
+ -Orders by month
 
-Revenue by category
+ -Revenue by category
 
-Top sellers by revenue
+ -Top sellers by revenue
 
-Applied formatting techniques for better clarity
+-Applied formatting techniques for better clarity
 
-Avoided misleading visual types (e.g., pie charts for large categories)
+-Avoided misleading visual types (e.g., pie charts for large categories)
 
-Key Insights
+5.Key Insights
 
-Majority of orders were paid in installments, reflecting customer payment behavior.
+-Majority of orders were paid in installments, reflecting customer payment behavior.
 
-Product price and purchase frequency show neutral correlation.
+-Product price and purchase frequency show neutral correlation.
 
-Revenue growth trends vary across years.
+-Revenue growth trends vary across years.
 
-Seller ranking highlights top revenue contributors annually.
+-Seller ranking highlights top revenue contributors annually.
 
-SQL window functions enable deeper behavioral and performance analysis.
+-SQL window functions enable deeper behavioral and performance analysis.
 
-Business Impact
+6.Business Impact
 
 This project demonstrates how businesses can:
 
-Monitor sales growth trends
+-Monitor sales growth trends
 
-Identify top-performing sellers
+-Identify top-performing sellers
 
-Understand customer payment preferences
+-Understand customer payment preferences
 
-Evaluate product category revenue contribution
+-Evaluate product category revenue contribution
 
-Perform advanced customer behavior analysis
+-Perform advanced customer behavior analysis
 
 It showcases the integration of database systems and Python analytics for scalable business intelligence.
 
-Outcome
+7.Outcome
 
 Delivered a complete SQL-Python integrated analytics solution.
 
